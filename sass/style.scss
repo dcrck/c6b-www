@@ -383,3 +383,32 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+
+/* okay now time for the main styles */
+
+/*
+html {
+  
+}
+
+main {
+
+}
+
+main * + * {
+  margin-top: 1.5rem;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 1280px;
+}
+
+
+section.hero > h1 {
+  font-size: calc(1.25em + 3vw);
+  font-weight: 800;
+}
+*/
