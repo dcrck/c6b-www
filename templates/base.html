@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    {% block head %}
     <title>C6B</title>
+    {% endblock head %}
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -11,20 +13,31 @@
     <link rel="stylesheet" href="{{ get_url(path="supreme.css") }}">
     <link rel="stylesheet" href="{{ get_url(path="jetbrains.css") }}">
     <link rel="stylesheet" href="{{ get_url(path="style.css") }}">
-    {% block head %}
-    {% endblock head %}
   </head>
   <body>
-    <header>
+    <header class="container">
       <a href="/">
-        C6B
+        <svg viewBox="0 0 56 50" fill="none" xmlns="http://www.w3.org/2000/svg" id="logo">
+          <path d="M19.2166 9.15063L37.5179 9.15063L46.6685 25L37.5179 40.8494L19.2166 40.8494L10.066 25L19.2166 9.15063Z" fill="#151B1F" stroke="#FFC300" stroke-width="16.0136"/>
+          <path d="M19.2166 9.15063L37.5179 9.15063L46.6685 25L37.5179 40.8494L19.2166 40.8494L10.066 25L19.2166 9.15063Z" fill="#151B1F" stroke="#FF793C" stroke-width="11.4383"/>
+          <path d="M19.2166 9.15063L37.5179 9.15063L46.6685 25L37.5179 40.8494L19.2166 40.8494L10.066 25L19.2166 9.15063Z" fill="#151B1F" stroke="#EB3264" stroke-width="6.86298"/>
+          <path d="M19.2166 9.15063L37.5179 9.15063L46.6685 25L37.5179 40.8494L19.2166 40.8494L10.066 25L19.2166 9.15063Z" fill="#151B1F" stroke="#36454F" stroke-width="2.28766"/>
+          <path d="M19.2167 40.8493L37.5179 40.8493L42.0942 32.9246L37.5179 24.9999L19.2167 24.9999L14.6422 32.9246L19.2167 40.8493Z" stroke="#36454F" stroke-width="2.28766"/>
+          <path d="M37.5179 9.15069L19.2167 9.1507L14.6422 17.0754L19.2167 25.0001L37.5179 25.0001L42.0942 17.0754L37.5179 9.15069Z" stroke="#36454F" stroke-width="2.28766"/>
+        </svg>
+        <span>C6B</span>
       </a>
       <nav>
+        <label for="nav-menu">
+          Menu
+        </label>
+        <input id="nav-menu" type="checkbox" />
         <ul>
           <li><a href="/about">Company</a></li>
           <li><a href="/news">News</a></li>
           <li><a href="/resources">Resources</a></li>
           <li><a href="/contact" class="button">Contact Us</a></li>
+          <li><label for="nav-menu">X</label></li>
         </ul>
       </nav>
     </header>

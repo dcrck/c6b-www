@@ -1,161 +1,98 @@
 @font-face {
   font-family: 'JetBrains Mono';
-  src: url('fonts/jetbrains/JetBrainsMono-Thin.woff2') format('woff2'),
-       url('fonts/jetbrains/JetBrainsMono-Thin.woff') format('woff'),
-       url('fonts/jetbrains/JetBrainsMono-Thin.ttf') format('truetype');
+  src: url('fonts/jetbrains/JetBrainsMono-Thin.woff2') format('woff2');
   font-weight: 100;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
   font-family: 'JetBrains Mono';
-  src: url('fonts/jetbrains/JetBrainsMono-ThinItalic.woff2') format('woff2'),
-       url('fonts/jetbrains/JetBrainsMono-ThinItalic.woff') format('woff'),
-       url('fonts/jetbrains/JetBrainsMono-ThinItalic.ttf') format('truetype');
+  src: url('fonts/jetbrains/JetBrainsMono-ThinItalic.woff2') format('woff2');
   font-weight: 100;
   font-display: swap;
   font-style: italic;
 }
 @font-face {
   font-family: 'JetBrains Mono';
-  src: url('fonts/jetbrains/JetBrainsMono-ExtraLight.woff2') format('woff2'),
-       url('fonts/jetbrains/JetBrainsMono-ExtraLight.woff') format('woff'),
-       url('fonts/jetbrains/JetBrainsMono-ExtraLight.ttf') format('truetype');
+  src: url('fonts/jetbrains/JetBrainsMono-ExtraLight.woff2') format('woff2');
   font-weight: 200;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
   font-family: 'JetBrains Mono';
-  src: url('fonts/jetbrains/JetBrainsMono-ExtraLightItalic.woff2') format('woff2'),
-       url('fonts/jetbrains/JetBrainsMono-ExtraLightItalic.woff') format('woff'),
-       url('fonts/jetbrains/JetBrainsMono-ExtraLightItalic.ttf') format('truetype');
+  src: url('fonts/jetbrains/JetBrainsMono-ExtraLightItalic.woff2') format('woff2');
   font-weight: 200;
   font-display: swap;
   font-style: italic;
 }
 @font-face {
   font-family: 'JetBrains Mono';
-  src: url('fonts/jetbrains/JetBrainsMono-Light.woff2') format('woff2'),
-       url('fonts/jetbrains/JetBrainsMono-Light.woff') format('woff'),
-       url('fonts/jetbrains/JetBrainsMono-Light.ttf') format('truetype');
+  src: url('fonts/jetbrains/JetBrainsMono-Light.woff2') format('woff2');
   font-weight: 300;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
   font-family: 'JetBrains Mono';
-  src: url('fonts/jetbrains/JetBrainsMono-LightItalic.woff2') format('woff2'),
-       url('fonts/jetbrains/JetBrainsMono-LightItalic.woff') format('woff'),
-       url('fonts/jetbrains/JetBrainsMono-LightItalic.ttf') format('truetype');
+  src: url('fonts/jetbrains/JetBrainsMono-LightItalic.woff2') format('woff2');
   font-weight: 300;
   font-display: swap;
   font-style: italic;
 }
 @font-face {
   font-family: 'JetBrains Mono';
-  src: url('fonts/jetbrains/JetBrainsMono-Regular.woff2') format('woff2'),
-       url('fonts/jetbrains/JetBrainsMono-Regular.woff') format('woff'),
-       url('fonts/jetbrains/JetBrainsMono-Regular.ttf') format('truetype');
+  src: url('fonts/jetbrains/JetBrainsMono-Regular.woff2') format('woff2');
   font-weight: 400;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
   font-family: 'JetBrains Mono';
-  src: url('fonts/jetbrains/JetBrainsMono-Italic.woff2') format('woff2'),
-       url('fonts/jetbrains/JetBrainsMono-Italic.woff') format('woff'),
-       url('fonts/jetbrains/JetBrainsMono-Italic.ttf') format('truetype');
+  src: url('fonts/jetbrains/JetBrainsMono-Italic.woff2') format('woff2');
   font-weight: 400;
   font-display: swap;
   font-style: italic;
 }
 @font-face {
   font-family: 'JetBrains Mono';
-  src: url('fonts/jetbrains/JetBrainsMono-Medium.woff2') format('woff2'),
-       url('fonts/jetbrains/JetBrainsMono-Medium.woff') format('woff'),
-       url('fonts/jetbrains/JetBrainsMono-Medium.ttf') format('truetype');
+  src: url('fonts/jetbrains/JetBrainsMono-Medium.woff2') format('woff2');
   font-weight: 500;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
   font-family: 'JetBrains Mono';
-  src: url('fonts/jetbrains/JetBrainsMono-MediumItalic.woff2') format('woff2'),
-       url('fonts/jetbrains/JetBrainsMono-MediumItalic.woff') format('woff'),
-       url('fonts/jetbrains/JetBrainsMono-MediumItalic.ttf') format('truetype');
+  src: url('fonts/jetbrains/JetBrainsMono-MediumItalic.woff2') format('woff2');
   font-weight: 500;
   font-display: swap;
   font-style: italic;
 }
 @font-face {
   font-family: 'JetBrains Mono';
-  src: url('fonts/jetbrains/JetBrainsMono-Bold.woff2') format('woff2'),
-       url('fonts/jetbrains/JetBrainsMono-Bold.woff') format('woff'),
-       url('fonts/jetbrains/JetBrainsMono-Bold.ttf') format('truetype');
+  src: url('fonts/jetbrains/JetBrainsMono-Bold.woff2') format('woff2');
   font-weight: 700;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
   font-family: 'JetBrains Mono';
-  src: url('fonts/jetbrains/JetBrainsMono-BoldItalic.woff2') format('woff2'),
-       url('fonts/jetbrains/JetBrainsMono-BoldItalic.woff') format('woff'),
-       url('fonts/jetbrains/JetBrainsMono-BoldItalic.ttf') format('truetype');
+  src: url('fonts/jetbrains/JetBrainsMono-BoldItalic.woff2') format('woff2');
   font-weight: 700;
   font-display: swap;
   font-style: italic;
 }
 @font-face {
   font-family: 'JetBrains Mono';
-  src: url('fonts/jetbrains/JetBrainsMono-ExtraBold.woff2') format('woff2'),
-       url('fonts/jetbrains/JetBrainsMono-ExtraBold.woff') format('woff'),
-       url('fonts/jetbrains/JetBrainsMono-ExtraBold.ttf') format('truetype');
+  src: url('fonts/jetbrains/JetBrainsMono-ExtraBold.woff2') format('woff2');
   font-weight: 800;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
   font-family: 'JetBrains Mono';
-  src: url('fonts/jetbrains/JetBrainsMono-ExtraBoldItalic.woff2') format('woff2'),
-       url('fonts/jetbrains/JetBrainsMono-ExtraBoldItalic.woff') format('woff'),
-       url('fonts/jetbrains/JetBrainsMono-ExtraBoldItalic.ttf') format('truetype');
+  src: url('fonts/jetbrains/JetBrainsMono-ExtraBoldItalic.woff2') format('woff2');
   font-weight: 800;
   font-display: swap;
   font-style: italic;
 }
-/**
-* This is a variable font
-* You can control variable axes as shown below:
-* font-variation-settings: wght 800.0;
-*
-* available axes:
-'wght' (range from 100.0 to 800.0
-*/
-@font-face {
-  font-family: 'JetBrains Mono';
-  src: url('fonts/jetbrains/JetBrainsMono-Variable.woff2') format('woff2'),
-       url('fonts/jetbrains/JetBrainsMono-Variable.woff') format('woff'),
-       url('fonts/jetbrains/JetBrainsMono-Variable.ttf') format('truetype');
-  font-weight: 100 800;
-  font-display: swap;
-  font-style: normal;
-}
-/**
-* This is a variable font
-* You can control variable axes as shown below:
-* font-variation-settings: wght 800.0;
-*
-* available axes:
-'wght' (range from 100.0 to 800.0
-*/
-@font-face {
-  font-family: 'JetBrains Mono';
-  src: url('fonts/jetbrains/JetBrainsMono-VariableItalic.woff2') format('woff2'),
-       url('fonts/jetbrains/JetBrainsMono-VariableItalic.woff') format('woff'),
-       url('fonts/jetbrains/JetBrainsMono-VariableItalic.ttf') format('truetype');
-  font-weight: 100 800;
-  font-display: swap;
-  font-style: italic;
-}
-
