@@ -563,13 +563,14 @@ main * + * {
   transform: translateY(-5%);
 }
 
-#background-overlay {
+#hero::after {
+  content: "";
   position: absolute;
   margin-top: 0;
-  top: 50vh;
+  top: 0;
   left: 0;
   width: 100%;
-  height: min(50vh, 406px + 4.5vh);
+  height: 100%;
   z-index: -1;
   background: linear-gradient(to bottom, rgb(21 27 31 / 0), var(--bg-color));
 }
