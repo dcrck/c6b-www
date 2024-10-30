@@ -580,7 +580,7 @@ main * + * {
   color: #0a0d0f;
   background-color: #fafaf9;
   margin: 2em auto;
-  max-width: calc(100% - 2em);
+  max-width: calc(1280px - 2em);
   padding-left: 1em;
   padding-right: 1em;
   border-radius: 0.125em;
@@ -592,6 +592,7 @@ main * + * {
   justify-content: space-between;
   column-gap: 3em;
   padding: 1em;
+  align-items: start;
 }
 
 .side-by-side h1 {
@@ -656,7 +657,8 @@ ul.hex-list > li::before {
 }
 
 #benefits {
-  background: linear-gradient(to bottom, var(--bg-color), rgb(21 27 31 / 0) 20%, rgb(21 27 31 / 0) 80%, var(--bg-color));
+  background: linear-gradient(to bottom, var(--bg-color), rgb(21 27 31 / 0) 20%, rgb(21 27 31 / 0) 80%, var(--bg-color)),
+              linear-gradient(to right, var(--bg-color), rgb(21 27 31 / 0) 5%, rgb(21 27 31 / 0) 95%, var(--bg-color));
   padding-bottom: 5em;
 }
 
@@ -710,7 +712,7 @@ img { border-radius: 0.125rem; }
   background: #ffc300;
   height: max(10vh, 320px);
   margin: 2em auto;
-  max-width: calc(100% - 2em);
+  max-width: calc(1280px - 2em);
   padding-left: 1em;
   padding-right: 1em;
   border-radius: 0.125em;
