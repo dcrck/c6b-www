@@ -583,7 +583,7 @@ main * + * {
 .side-by-side {
   display: flex;
   justify-content: space-between;
-  column-gap: 3em;
+  column-gap: 2em;
   align-items: start;
 }
 
@@ -738,17 +738,6 @@ img { border-radius: 0.125rem; }
 
 #contact-us a.button:hover {
   transform: translateY(-5%);
-}
-
-@media (min-width: 2000px) {
-  .side-by-side, #intro {
-    flex-direction: column;
-    gap: 1em;
-  }
-
-  .side-by-side > div, .side-by-side > img {
-    max-width: 100%;
-  }
 }
 
 @media (max-width: 886px) {
