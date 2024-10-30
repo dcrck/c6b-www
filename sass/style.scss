@@ -591,7 +591,7 @@ section.side-by-side {
   padding: 1em;
 }
 
-.side-by-side h1 {
+h1 {
   font-size: clamp(1.5rem, 1.5rem + 1.5vw, 64px);
   font-weight: 300;
   line-height: 1.15;
@@ -615,6 +615,11 @@ section.side-by-side {
   top: 0;
   left: 0;
   z-index: -1;
+}
+
+.hex-grid.full {
+  position: fixed;
+  height: 100vw;
 }
 
 #intro {
@@ -738,6 +743,50 @@ img { border-radius: 0.125rem; }
 
 #contact-us a.button:hover {
   transform: translateY(-5%);
+}
+
+#story, #history, #problem, #vision, #values, #team {
+  max-width: 50ch;
+  margin-top: 3em;
+}
+
+#team ul li > * + * {
+  margin-top: 0.25em;
+}
+
+#values > ul > li {
+  display: flex;
+  align-items: start;
+}
+
+#values > ul > li * + * {
+  margin-top: 0.5em;
+}
+
+.caption {
+  font-size: 0.6em;
+  opacity: 0.7;
+  font-family: var(--mono);
+  text-transform: uppercase;
+}
+
+.name {
+  font-size: 0.8em;
+}
+
+.bio-grid > li {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  grid-column-gap: 1em;
+  grid-row-gap: 2em;
+}
+
+.bio-grid > li * + * {
+  margin-top: 0.5em;
+}
+
+.bio-grid > li > p {
+  font-size: 0.8em;
 }
 
 @media (max-width: 886px) {

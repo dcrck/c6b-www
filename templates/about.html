@@ -5,6 +5,18 @@
 {% endblock head %}
 
 {% block content %}
+  <svg xmlns:xlink="http://www.w3.org/1999/xlink"	width="100%" height="100%" class="hex-grid full">
+    <defs>
+      <pattern id="hexagons" width="50" height="43.4" patternUnits="userSpaceOnUse" patternTransform="scale(0.6)">
+        <polygon fill="#0a0d0f" stroke-width="1.2" stroke="#151b1f" points="24.8,22 37.3,29.2 37.3,43.7 24.8,50.9 12.3,43.7 12.3,29.2" id="hex" />
+        <use xlink:href="#hex" x="25" />
+        <use xlink:href="#hex" x="-25" />
+        <use xlink:href="#hex" x="12.5" y="-21.7" />
+        <use xlink:href="#hex" x="-12.5" y="-21.7" />
+      </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#hexagons)" />
+  </svg>
   <section id="story" class="container">
     <h1>Our Story</h1>
     <p>When I came back from active duty in 2008, it was bad timing. The housing crisis hit us all like a ton of bricks.</p>
@@ -15,7 +27,10 @@
     <p>What really caught my attention was when Robert told me that the way biochar was processed made it a carbon sink. Pyrolysis didn't produce net emissions, and once biochar was in the ground, that carbon would stay there for hundreds or even thousands of years. I was hooked.</p>
     <p>This material was familiar, but different. I could help out my local community, support a worthwhile business legacy, and build a better world for my kids. The other biochar companies out there were only making small volumes. Well, I'm the kind of guy to go big or go home. So we got to work.</p>
     <p>A few years later, and we're just about ready to get our pilot project off the ground. We're so excited to share our work with the world, and we're happy to have you along for the ride.</p>
-    <p>- Derek Zahler</p>
+    <div>
+      Derek Zahler
+      <p class="caption">Founder</p>
+    </div>
   </section>
   <section id="history" class="container">
     <h1>History</h1>
@@ -25,7 +40,7 @@
     <p>We're excited to get C6B biochar into fields and to start demonstrating its real benefits for farmers and the environment.</p>
   </section>
   <section id="problem" class="container">
-    <h1>The Problem &amp; our Solution</h1>
+    <h1>The Problem &amp; Our Solution</h1>
     <p>Climate change threatens food security and the livelihood of farmers around the globe. Now is the time to rally around solutions that secure reliable crop yields in the face of unpredictable rainfall and extreme weather events.</p> 
     <p>Regenerative farming techniques can support resilience in the face of these challenges. Farmers and consumers alike benefit from solutions that can improve soil health, recycle "waste" material, and sequester carbon - just like biochar.</p>
     <p>Better still, this solution can increase yields to meet ever-increasing demand when traditional crop treatments are eroding long-term growing conditions. This further reduces the need for clearing ecologically valuable land for agricultural use.</p> 
@@ -38,69 +53,100 @@
   </section>
   <section id="values" class="container">
     <h1>Our Values</h1>
-    <ol>
+    <ul class="hex-list">
       <li>
-        <p><b>Quality</b></p>
-        <p>C6B is dedicated to producing top-tier solutions and never shies away from difficult challenges. Our commitment to quality is rooted in our passion for real impact and the best outcomes.</p>
+        <div>
+          <span><b>Quality</b></span>
+          <p>C6B is dedicated to producing top-tier solutions and never shies away from difficult challenges. Our commitment to quality is rooted in our passion for real impact and the best outcomes.</p>
+        </div>
       </li>
       <li>
-        <p><b>Scale</b></p>
+        <div>
+        <span><b>Scale</b></span>
         <p>C6B maximizes impact by sequestering carbon at scale and ensures accessibility for diverse applications. By reducing costs, our products can deliver broad benefits while strengthening resilience.</p>
+        </div>
       </li>
       <li>
-        <p><b>Integrity</b></p>
+        <div>
+        <span><b>Integrity</b></span>
         <p>Trust and transparency is pivotal in everything C6B does. We are open about our processes and credit verification to ensure real collaboration with our partners every step of the way.</p>
+        </div>
       </li>
       <li>
-        <p><b>Sustainability</b></p>
+        <div>
+        <span><b>Sustainability</b></span>
         <p>C6B champions environmental stewardship and resource conservation. Smart agriculture and carbon-negative solutions empower healthy, resilient, and secure communities around the world.</p>
+        </div>
       </li>
       <li>
-        <p><b>Innovation</b></p>
+        <div>
+        <span><b>Innovation</b></span>
         <p>C6B seeks creative solutions to hard problems. We continuously improves products and processes to produce even better outcomes. This includes exploring new biochar uses and leveraging fully renewable energy in production.</p>
+        </div>
       </li>
-    </ol>
+    </ul>
   </section>
   <section id="team" class="container">
     <h1>Meet the Team</h1>
-    <ul>
+    <ul class="bio-grid">
       <li>
-        <p><b>Derek Zahler - President</b></p>
-        <p>
+        <div>
+          <p class="name"><b>Derek Zahler</b></p>
+          <p class="caption">Founder</p>
+        </div>
+        <p class="bio">
           Derek Zahler is a project development professional. From running missions as a Special Forces soldier to managing new ventures and special projects for a large mining company, he has appreciated the quality of teams in the sincerest sense. His interest in climate is foundational.
         </p>
       </li>
       <li>
-        <p><b>Tyler Strafford - Chief of Staff</b></p>
-        <p>
+        <div>
+          <p class="name"><b>Tyler Strafford</b></p>
+          <p class="caption">Chief of Staff</p>
+        </div>
+        <p class="bio">
           A strategic problem-solver with a management consultant background, Tyler enjoys creating custom solutions for thorny issues - especially when he needs to learn something new to do so.  He is passionate about the circular economy and discovering new ways to use so-called “waste” products, especially when transforming practices to reduce their environmental impacts. 
         </p>
       </li>
       <li>
-        <p><b>Roberts Klavins - Partnerships</b></p>
-        <p>
+        <div>
+          <p class="name"><b>Roberts Klavins</b></p>
+          <p class="caption">Partnerships</p>
+        </div>
+        <p class="bio">
           An experienced sales professional with a strong background in Asia Pacific financial markets. With leadership roles at JP Morgan and Bank of America Merrill Lynch, he has driven revenue growth while navigating complex regulatory environments. Passionate about climate solutions, he is leveraging his financial markets expertise to contribute to decarbonization efforts and deliver transparent, credible strategies.
         </p>
       </li>
       <li>
-        <p><b>Gregory Billington - Finance and Planning </b></p>
+        <div>
+          <p class="name"><b>Gregory Billington</b></p>
+          <p class="caption">Finance &amp; Planning</p>
+        </div>
         <p>
         </p>
       </li>
       <li>
-        <p><b>Fuming Yang - Science and Engineering</b></p>
+        <div>
+          <p class="name"><b>Fuming Yang</b></p>
+          <p class="caption">Science &amp; Engineering</p>
+        </div>
         <p>
           Fuming holds a PhD in advanced material mechanics with over eight years of research experience, combined with hands-on expertise in deep/climate tech VC and early-stage startups. Her background spans technical innovation and strategic business growth, with a focus on business development, due diligence, and impactful strategy. She is deeply passionate about advancing sustainable innovations and driving meaningful change in climate tech.
         </p>
       </li>
       <li>
-        <p><b>Simon Sage - Communications Coordinator</b></p>
+        <div>
+          <p class="name"><b>Simon Sage</b></p>
+          <p class="caption">Communications Coordinator</p>
+        </div>
         <p>
           A seasoned communications professional with over a decade of experience in online publishing. As a journalist, he's been able to chew on important subjects like solar panels, batteries, electric vehicles, smart thermostats, energy infrastructure, home energy efficiency, and right to repair. 
         </p>
       </li>
       <li>
-        <p><b>Santonu Kashyap - Carbon Markets </b></p>
+        <div>
+          <p class="name"><b>Santonu Kashyap</b></p>
+          <p class="caption">Carbon Markets</p>
+        </div>
       </li>
     </ul>
   </section>
