@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 
+{% block head %}
+<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
+{% endblock head %}
+
 {% block content %}
   <section id="hero">
     <img src="/hero-background.jpg" />
@@ -129,4 +133,5 @@
     <h1 class="title">Want to connect with C6B?</h1>
     <a href="/contact" class="button">Contact us</a>
   </section>
+  <div data-netlify-identity-menu></div>
 {% endblock content %}
