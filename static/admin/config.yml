@@ -37,7 +37,7 @@ collections:
     files:
       - name: "contact"
         label: "Contact Page"
-        file: "content/about/_index.md"
+        file: "content/contact/_index.md"
         fields:
           - {label: "Form Title", name: "extra.form_title", widget: string}
           - {label: "Form Description", name: "extra.form_description", widget: string}
