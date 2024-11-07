@@ -8,7 +8,7 @@
 backend:
   name: git-gateway
 
-local_backend: true
+# local_backend: true
 
 ##
 ##
