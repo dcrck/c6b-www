@@ -39,7 +39,11 @@ collections:
         label: "Contact Page"
         file: "content/about/_index.md"
         fields:
-          - {label: "Form Title", name: "extra.form_title", widget: string}
-          - {label: "Form Description", name: "extra.form_description", widget: string}
-          - {label: "Form Email Input Label", name: "extra.form_email_input_label", widget: string}
-          - {label: "Form Submit Button Text", name: "extra.form_submit_button_text", widget: string}
+          - name: "extra"
+            label: "Extras"
+            widget: object
+            fields:
+              - {label: "Form Title", name: "form_title", widget: string}
+              - {label: "Form Description", name: "form_description", widget: string}
+              - {label: "Form Email Input Label", name: "form_email_input_label", widget: string}
+              - {label: "Form Submit Button Text", name: "form_submit_button_text", widget: string}
