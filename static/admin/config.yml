@@ -7,6 +7,7 @@
 
 backend:
   name: git-gateway
+  branch: main
 
 # local_backend: true
 
@@ -20,13 +21,14 @@ publish_mode: editorial_workflow
 collections:
   - name: "news"
     label: "News"
-    folder: "/content/news"
+    folder: "content/news"
     create: true
     slug: "{{slug}}"
     format: toml-frontmatter
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
       - { label: "Featured Image", name: "thumbnail", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages"
@@ -35,7 +37,7 @@ collections:
     files:
       - name: "contact"
         label: "Contact Page"
-        file: "/content/about/_index.md"
+        file: "content/about/_index.md"
         fields:
           - {label: "Form Title", name: "extra.form_title", widget: string}
           - {label: "Form Description", name: "extra.form_description", widget: string}
