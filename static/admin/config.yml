@@ -35,6 +35,35 @@ collections:
     label: "Pages"
     format: toml-frontmatter
     files:
+      - name: "home"
+        label: "Landing Page"
+        file: "content/_index.md"
+        fields:
+          - name: "extra"
+            label: "Editable fields"
+            widget: object
+            fields:
+              - {label: "Hero Title", name: "hero_title", widget: string}
+              - {label: "Hero Description", name: "hero_description", widget: text}
+              - {label: "Hero Call-to-Action Button Text", name: "hero_cta_button_text", widget: string}
+              - {label: "Introduction Header", name: "intro_header", widget: string}
+              - {label: "Introduction Image Path", name: "intro_image_path", widget: image, allow_multiple: false}
+              - {label: "Introduction Paragraph #1", name: "intro_paragraph0", widget: text}
+              - {label: "Introduction Paragraph #2", name: "intro_paragraph1", widget: text}
+              - {label: "Introduction Call-to-Action Button Text", name: "intro_cta_button_text", widget: string}
+              - {label: "Benefits Header", name: "benefits_header", widget: string}
+              - label: "Benefits"
+                name: "benefits"
+                widget: list
+                fields:
+                  - {label: "Title", name: "title", widget: string}
+                  - {label: "Description", name: "description", widget: text}
+              - {label: "About Us Header", name: "about_header", widget: string}
+              - {label: "About Us Description", name: "about_description", widget: text}
+              - {label: "About Us Call-to-Action Button Text", name: "about_cta_button_text", widget: string}
+              - {label: "News Call-to-Action Button Text", name: "news_cta_button_text", widget: string}
+              - {label: "Contact Us Header", name: "contact_header", widget: string}
+              - {label: "Contact Us Call-to-Action Button Text", name: "contact_cta_button_text", widget: string}
       - name: "contact"
         label: "Contact Page"
         file: "content/contact/_index.md"
