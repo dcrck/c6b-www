@@ -98,6 +98,7 @@ collections:
                 name: "team"
                 widget: list
                 allow_add: true
+                summary: "{{fields.name}} ({{fields.title}})"
                 fields:
                   - {label: "Member Profile Photo", name: "photo_path", widget: image, allow_multiple: false}
                   - {label: "Member Name", name: "name", widget: string}
