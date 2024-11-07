@@ -411,7 +411,7 @@ main section + section {
   line-height: 1.15;
 }
 
-a.button {
+a.button, button {
   display: inline-block;
   color: var(--bg-color);
   background-color: var(--text-color);
@@ -791,6 +791,38 @@ img { border-radius: 0.125rem; }
 
 .bio-grid > li > p {
   font-size: 0.8em;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 640px;
+  margin-inline: auto;
+  padding: 1.5em;
+  border-radius: 4px;
+}
+
+.contact-form h2 {
+  font-size: 2em;
+}
+
+.contact-form > div * + * {
+  margin-top: 0.5em;
+}
+
+.contact-form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  font-size: 0.7em;
+  font-family: var(--mono);
+  opacity: 0.75;
+}
+
+.contact-form button {
+  width: 100%;
 }
 
 @media (max-width: 886px) {
