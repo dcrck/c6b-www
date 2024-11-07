@@ -20,10 +20,9 @@ publish_mode: editorial_workflow
 collections:
   - name: "news"
     label: "News"
-    folder: "content/news/"
+    folder: "content/news"
     create: true
     slug: "{{slug}}"
-    extension: md
     format: toml-frontmatter
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
@@ -32,7 +31,6 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages"
     label: "Pages"
-    extension: md
     format: toml-frontmatter
     files:
       - name: "contact"
