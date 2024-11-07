@@ -47,3 +47,59 @@ collections:
               - {label: "Form Description", name: "form_description", widget: string}
               - {label: "Form Email Input Label", name: "form_email_input_label", widget: string}
               - {label: "Form Submit Button Text", name: "form_submit_button_text", widget: string}
+      - name: "about"
+        label: "About Us Page"
+        file: "content/about/_index.md"
+        fields:
+          - name: "extra"
+            label: "Editable fields"
+            widget: object
+            fields:
+              - {label: "Story Header", name: "story_header", widget: string}
+              - label: "Story Paragraphs"
+                name: "story_paragraphs"
+                widget: list
+                allow_add: true
+                field: {label: "content", name: "content", widget: text}
+              - label: "Story Signature"
+                name: "story_signature"
+                widget: object
+                fields:
+                  - {label: "Signature Name", name: "name", widget: string}
+                  - {label: "Signature Caption", name: "caption", widget: string}
+              - {label: "History Header", name: "history_header", widget: string}
+              - label: "History Paragraphs"
+                name: "history_paragraphs"
+                widget: list
+                allow_add: true
+                field: {label: "content", name: "content", widget: text}
+              - {label: "Problem Header", name: "problem_header", widget: string}
+              - label: "Problem Paragraphs"
+                name: "problem_paragraphs"
+                widget: list
+                allow_add: true
+                field: {label: "content", name: "content", widget: text}
+              - {label: "Vision Header", name: "vision_header", widget: string}
+              - label: "Vision Paragraphs"
+                name: "vision_paragraphs"
+                widget: list
+                allow_add: true
+                field: {label: "content", name: "content", widget: text}
+              - {label: "Values Header", name: "values_header", widget: string}
+              - label: "Values"
+                name: "values"
+                widget: list
+                allow_add: true
+                fields:
+                  - {label: "Value Title", name: "title", widget: string}
+                  - {label: "Value Description", name: "description", widget: text}
+              - {label: "Team Header", name: "team_header", widget: string}
+              - label: "team"
+                name: "team"
+                widget: list
+                allow_add: true
+                fields:
+                  - {label: "Member Profile Photo", name: "photo_path", widget: image, allow_multiple: false}
+                  - {label: "Member Name", name: "name", widget: string}
+                  - {label: "Member Title", name: "title", widget: string}
+                  - {label: "Member Bio", name: "bio", widget: text}
