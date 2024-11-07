@@ -23,6 +23,8 @@ collections:
     folder: "content/"
     create: true
     slug: "{{slug}}"
+    extension: md
+    format: toml-frontmatter
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
       - { label: "Title", name: "title", widget: "string" }
