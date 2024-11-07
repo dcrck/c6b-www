@@ -32,6 +32,8 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages"
     label: "Pages"
+    extension: md
+    format: toml-frontmatter
     files:
       - name: "contact"
         label: "Contact Page"
