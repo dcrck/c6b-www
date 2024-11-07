@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block head %}
-<title>C6B</title>
+<title>{{section.title}}</title>
 <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 {% endblock %}
 
@@ -9,25 +9,20 @@
   <section id="hero">
     <img src="/hero-background.jpg" />
     <div class="container">
-      <h1 class="title">Large-scale biochar for<br/>large-scale agribusiness</h1>
-      <p>C6B delivers world-class biochar for today's climate-smart agribusinesses.</p>
-      <a href="/contact" class="button">Get in Touch</a>
+      <h1 class="title">{{section.extra.hero_title | safe}}</h1>
+      <p>{{section.extra.hero_description | safe}}</p>
+      <a href="/contact" class="button">{{section.extra.hero_cta_button_text | safe}}</a>
     </div>
   </section>
   <section id="intro" class="container side-by-side">
-    <img src="/biochar-about.jpg" />
+    <img src={{section.extra.intro_image_path}} />
     <div>
-      <h1>What is biochar?</h1>
+      <h1>{{section.extra.intro_header | safe}}</h1>
       <p>
-        Biochar is made by subjecting
-        <i class="highlight secondary">organic material</i>
-        to
-        <i class="highlight primary">high temperatures</i>
-        in a
-        <i class="highlight tertiary">zero-oxygen environment</i>. 
+        {{section.extra.intro_paragraph0 | safe}}
       </p>
-      <p>This stabilizes carbon for long-term storage and creates a porous, high-surface area material with wide applications.</p>
-      <a href="https://c6b-docs.netlify.app" class="button">Learn More about Biochar</a>
+      <p>{{section.extra.intro_paragraph1 | safe}}</p>
+      <a href="https://c6b-docs.netlify.app" class="button">{{section.extra.intro_cta_button_text}}</a>
     </div>
   </section>
   <section id="benefits" class="container three-column-list">
@@ -43,96 +38,64 @@
       </defs>
       <rect width="100%" height="100%" fill="url(#hexagons)" />
     </svg>
-    <h2>Benefits of Biochar</h2>
+    <h2>{{section.extra.benefits_header | safe}}</h2>
     <div>
       <ul class="hex-list">
+        {% for benefit in section.extra.benefits %}
         <li>
           <div>
-            <span><b>Improve crop performance</b></span>
-            <p>Enhance microbiome with a proven soil amendment.</p>
+            <span><b>{{benefit.title | safe}}</b></span>
+            <p>{{benefit.description | safe}}</p>
           </div>
         </li>
-        <li>
-          <div>
-            <span><b>Sequester carbon</b></span>
-            <p>Stabilize biomass carbon through anaerobic pyrolysis. Earn credits to meet emissions goals.</p>
-          </div>
-        </li>
-        <li>
-          <div>
-            <span><b>Enhance soil structure</b></span>
-            <p>Retain water and prevent erosion.</p>
-          </div>
-        </li>
+        {% endfor %}
       </ul>
     </div>
   </section>
   <section id="about" class="container side-by-side">
-    <h1>Who we are</h1>
+    <h1>{{section.extra.about_header | safe}}</h1>
     <div>
-      <p>C6B turns waste into value for the agriculture sector. We apply the latest technologies to create reliable, carbon-negative biochar at scale. Learn more about how we work and where we come from.</p>
-      <a href="/about" class="button">About Us</a>
+      <p>{{section.extra.about_description | safe}}</p>
+      <a href="/about" class="button">{{section.extra.about_cta_button_text}}</a>
     </div>
   </section>
   <section id="news" class="container three-column-list">
-    <h2>Latest C6B News</h2>
+    {% set subsection = get_section(path="news/_index.md") %}
+    <h2>{{subsection.title | safe}}</h2>
     <ul>
+      {% for news_item in subsection.pages | slice(end=3) %}
       <li>
         <div>
           <div></div>
-          <h3>News Item 1</h3>
-          <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Per aliquet est hendrerit nisi fames faucibus turpis.</p>
+          <h3>{{news_item.title}}</h3>
+          <p>{{news_item.description}}</p>
         </div>
       </li>
-      <li>
-        <div>
-          <div></div>
-          <h3>News Item 2</h3>
-          <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Viverra consequat habitasse proin placerat sodales; dapibus neque elementum. Erat senectus euismod augue facilisi condimentum.</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <div></div>
-          <h3>News Item 3</h3>
-          <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Urna sodales dis maecenas ornare amet rutrum suspendisse viverra ultricies.</p>
-        </div>
-      </li>
+      {% endfor %}
     </ul>
-    <a href="/news" class="button">All Company News</a>
+    <a href="/news" class="button">{{section.extra.news_cta_button_text}}</a>
   </section>
   <section id="case-studies" class="container">
+    {% set subsection = get_section(path="case-studies/_index.md") %}
     <div class="side-by-side">
-      <h1>Case Studies</h1>
-      <p>See how our customers use biochar to improve their products.</p>
+      <h1>{{subsection.title | safe}}</h1>
+      <p>{{subsection.description | safe}}</p>
     </div>
     <ul class="three-column-list">
+      {% for case_study in subsection.pages | slice(end=3) %}
       <li>
         <div>
           <div></div>
-          <h3>News Item 1</h3>
-          <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Per aliquet est hendrerit nisi fames faucibus turpis.</p>
+          <h3>{{case_study.title}}</h3>
+          <p>{{case_study.description}}</p>
         </div>
       </li>
-      <li>
-        <div>
-          <div></div>
-          <h3>News Item 2</h3>
-          <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Viverra consequat habitasse proin placerat sodales; dapibus neque elementum. Erat senectus euismod augue facilisi condimentum.</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <div></div>
-          <h3>News Item 3</h3>
-          <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Urna sodales dis maecenas ornare amet rutrum suspendisse viverra ultricies.</p>
-        </div>
-      </li>
+      {% endfor %}
     </ul>
   </section>
   <section id="contact-us" class="container">
-    <h1 class="title">Want to connect with C6B?</h1>
-    <a href="/contact" class="button">Contact us</a>
+    <h1 class="title">{{section.extra.contact_header | safe}}</h1>
+    <a href="/contact" class="button">{{section.extra.contact_cta_button_text}}</a>
   </section>
-  <div data-netlify-identity-menu></div>
+  <div id="netlify-id" data-netlify-identity-menu style="height: 0; display: none;"></div>
 {% endblock %}

@@ -28,3 +28,14 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Featured Image", name: "thumbnail", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "contact"
+        label: "Contact Page"
+        file: "content/about/_index.md"
+        fields:
+          - {label: "Form Title", name: extra.form_title, widget: string}
+          - {label: "Form Description", name: extra.form_description, widget: string}
+          - {label: "Form Email Input Label", name: extra.form_email_input_label, widget: string}
+          - {label: "Form Submit Button Text", name: extra.form_submit_button_text, widget: string}

@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block head %}
-<title>Contact Us * C6B</title>
+<title>{{section.title}}</title>
 {% endblock head %}
 
 {% block content %}
@@ -19,13 +19,13 @@
   </svg>
   <section class="container">
     <form name="contact" method="POST" class="contact-form" netlify>
-      <h2>Get in touch</h2>
-      <p>Interested in our biochar? Want to stay up-to-date with company news? Let us know!</p>
+      <h2>{{section.extra.form_title | safe}}</h2>
+      <p>{{section.extra.form_description | safe}}</p>
       <div>
-        <label for="email">Email</label>
+        <label for="email">{{section.extra.form_email_input_label}}</label>
         <input type="email" id="email" name="email" />
       </div>
-      <button type="submit">Submit</button>
+      <button type="submit">{{section.extra.form_submit_button_text}}</button>
     </form>
   </section>
 {% endblock content %}
