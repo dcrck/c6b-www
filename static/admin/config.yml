@@ -129,7 +129,7 @@ collections:
                 allow_add: true
                 summary: "{{fields.name}} ({{fields.title}})"
                 fields:
-                  - {label: "Member Profile Photo", name: "photo_path", widget: image, allow_multiple: false}
+                  - {label: "Member Profile Photo", name: "photo_path", widget: image, allow_multiple: false, required: false}
                   - {label: "Member Name", name: "name", widget: string}
                   - {label: "Member Title", name: "title", widget: string}
-                  - {label: "Member Bio", name: "bio", widget: text}
+                  - {label: "Member Bio", name: "bio", widget: text, required: false}
