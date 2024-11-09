@@ -499,6 +499,7 @@ nav ul > li:last-child {
     top: 0;
     width: 200px;
     height: 100%;
+    z-index: 2;
   }
 
   body > header nav > input:checked + ul::before {
