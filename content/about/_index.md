@@ -39,7 +39,7 @@ name = "Derek Zahler"
 caption = "Founder"
 
 [[extra.team]]
-photo_path = ""
+photo_path = "/images/uploads/derek-z.png"
 name = "Derek Zahler"
 title = "Founder"
 bio = "Derek Zahler is a project development professional. From running missions as a Special Forces soldier to managing new ventures and special projects for a large mining company, he has appreciated the quality of teams in the sincerest sense. His interest in climate is foundational."
