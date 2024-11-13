@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block head %}
+<title>{{section.title}} ⬡ C6B</title>
+{% endblock %}
+
+{% block content %}
+<section class="container">
+  <h1 class="title centered">{{section.title}}</h1>
+  <ul class="article-list">
+  {% for post in section.pages %}
+    <li>
+      <a href="{{ post.permalink }}">
+        {% if post.extra.thumbnail != "" %}
+          <img src="{{post.extra.thumbnail}}" alt="{{post.description | safe}}" />
+        {% else %}
+          <div class="placeholder"></div>
+        {% endif %}
+      </a>
+      <div>
+        <a href="{{ post.permalink }}">
+          <h2>{{ post.title }}</h2>
+        </a>
+        <p class="date">{{post.date | date(format="%d %b %Y")}}</p>
+        <p class="description">{{post.description}}</p>
+        <a href="{{ post.permalink }}"><b>Read More <span>→</span></b></a>
+      </div>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+{% endblock %}

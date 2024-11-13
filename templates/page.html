@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block head %}
+<title>{{page.title}}  ⬡ C6B</title> 
+{% endblock %}
+
+{% block content %}
+<article>
+  <section class="intro container">
+    <h1 class="title">{{page.title}}</h1>
+    <p class="description">{{page.description}}</p>
+    <p class="date">{{page.date | date(format="%d %b %Y")}}</p>
+    {% if page.extra.thumbnail != "" %}
+      <img src="{{page.extra.thumbnail}}" alt="{{page.description}}"/>
+    {% endif %}
+  </section>
+  <section class="container">
+    {{page.content}}
+  </section>
+  <section id="contact-us" class="container">
+    <h1 class="title">{{page.extra.contact_header | safe}}</h1>
+    <a href="/contact" class="button">{{page.extra.contact_cta_button_text}}</a>
+  </section>
+</article>
+{% endblock %}

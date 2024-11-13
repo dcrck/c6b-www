@@ -29,8 +29,14 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Featured Image", name: "thumbnail", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - name: "extra"
+        label: "Extra Fields"
+        widget: object
+        fields:
+          - { label: "Featured Image", name: "thumbnail", widget: "image" }
+          - {label: "Contact Us Header", name: "contact_header", widget: string}
+          - {label: "Contact Us Call-to-Action Button Text", name: "contact_cta_button_text", widget: string}
   - name: "pages"
     label: "Pages"
     format: toml-frontmatter

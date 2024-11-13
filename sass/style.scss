@@ -738,6 +738,10 @@ img { border-radius: 0.125rem; }
   justify-content: center;
 }
 
+#contact-us h1.title {
+  margin: inherit;
+}
+
 #contact-us a.button {
   transition: transform 250ms;
 }
@@ -835,4 +839,127 @@ img { border-radius: 0.125rem; }
   .side-by-side > div, .side-by-side > img {
     max-width: 100%;
   }
+}
+
+.centered {
+  text-align: center;
+}
+
+section > h1.title {
+  margin: 2em auto;
+}
+
+.article-list {
+  max-width: 800px;
+  margin: 1em auto;
+}
+
+.article-list a {
+  display: inline-block;
+  transition: color 200ms;
+}
+
+.article-list h2 {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.article-list a span {
+  display: inline-block;
+  transition: transform 300ms;
+}
+
+.article-list b {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.article-list p {
+  font-size: 0.8em;
+}
+
+.article-list > li {
+  display: flex;
+  padding: 2em 0;
+  gap: 1em;
+  border-top: 1px solid #20292f;
+}
+
+.article-list > li:first-child {
+  border-top: none;
+}
+
+.article-list > li + li {
+  margin-top: 0;
+}
+
+.article-list > li * + * {
+  margin-top: 0;
+}
+
+.article-list > li img, .article-list > li .placeholder {
+  width: 300px;
+}
+
+.article-list > li .placeholder {
+  height: 200px;
+  background: #36454f;
+}
+
+.article-list > li > div a:hover {
+  color:  var(--highlight);
+}
+
+.article-list > li > div a:hover span {
+  transform: translate(5px, 0);
+}
+
+.date {
+  font-family: var(--mono);
+  font-size: 0.7em;
+  padding: 0.25em 0 1em;
+  opacity: 0.6;
+}
+
+.article-list > li .description + a {
+  margin-top: 0.5em;
+}
+
+@media (max-width: 700px) {
+  .article-list > li {
+    flex-direction: column;
+  }
+  .article-list > li img, .article-list > li .placeholder {
+    width: 100%;
+  }
+  .article-list > li .placeholder {
+    aspect-ratio: 3 / 2;
+    height: auto;
+  }
+  .article-list p {
+    font-size: 1em;
+  }
+}
+
+article {
+  max-width: 65ch;
+  margin: 0 auto;
+}
+
+article .intro {
+  padding-bottom: 1em;
+  border-bottom: 1px solid #20292f;
+}
+
+article .intro * + * {
+  margin-top: 1em;
+}
+
+article h1.title {
+  margin-bottom: 0;
+}
+
+article .intro img {
+  width: 100%;
 }
