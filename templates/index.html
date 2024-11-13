@@ -75,7 +75,7 @@
     </ul>
     <a href="/news" class="button">{{section.extra.news_cta_button_text}}</a>
   </section>
-  <section id="case-studies" class="container">
+  {#<section id="case-studies" class="container">
     {% set subsection = get_section(path="case-studies/_index.md") %}
     <div class="side-by-side">
       <h1>{{subsection.title | safe}}</h1>
@@ -92,7 +92,7 @@
       </li>
       {% endfor %}
     </ul>
-  </section>
+  </section>#}
   <section id="contact-us" class="container">
     <h1 class="title">{{section.extra.contact_header | safe}}</h1>
     <a href="/contact" class="button">{{section.extra.contact_cta_button_text}}</a>
