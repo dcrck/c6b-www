@@ -39,44 +39,38 @@ name = "Derek Zahler"
 caption = "Founder"
 
 [[extra.team]]
-photo_path = "/images/uploads/derek-z.png"
+photo_path = "/images/uploads/derek-removebg-preview.png"
 name = "Derek Zahler"
 title = "Founder"
 bio = "Derek Zahler is a project development professional. From running missions as a Special Forces soldier to managing new ventures and special projects for a large mining company, he has appreciated the quality of teams in the sincerest sense. His interest in climate is foundational."
 
 [[extra.team]]
-photo_path = "/images/uploads/tyler-headshot.png"
+photo_path = "/images/uploads/tyler-removebg-preview.png"
 name = "Tyler Strafford"
 title = "Chief of Staff"
 bio = "A strategic problem-solver with a management consultant background, Tyler enjoys creating custom solutions for thorny issues - especially when he needs to learn something new to do so.  He is passionate about the circular economy and discovering new ways to use so-called “waste” products, especially when transforming practices to reduce their environmental impacts."
 
 [[extra.team]]
-photo_path = ""
+photo_path = "/images/uploads/rob-removebg-preview.png"
 name = "Roberts Klavins"
 title = "Partnerships"
 bio = "An experienced sales professional with a strong background in Asia Pacific financial markets. With leadership roles at JP Morgan and Bank of America Merrill Lynch, he has driven revenue growth while navigating complex regulatory environments. Passionate about climate solutions, he is leveraging his financial markets expertise to contribute to decarbonization efforts and deliver transparent, credible strategies."
 
 [[extra.team]]
-photo_path = ""
+photo_path = "/images/uploads/greg-removebg-preview.png"
 name = "Gregory Billington"
 title = "Finance &amp; Planning"
 bio = ""
 
 [[extra.team]]
-photo_path = "/images/uploads/fuming-headshot.png"
+photo_path = "/images/uploads/fuming-removebg-preview.png"
 name = "Fuming Yang"
 title = "Science &amp; Engineering"
 bio = "Fuming holds a PhD in advanced material mechanics with over eight years of research experience, combined with hands-on expertise in deep/climate tech VC and early-stage startups. Her background spans technical innovation and strategic business growth, with a focus on business development, due diligence, and impactful strategy. She is deeply passionate about advancing sustainable innovations and driving meaningful change in climate tech."
 
 [[extra.team]]
-photo_path = "/images/uploads/profile-pic.png"
+photo_path = "/images/uploads/simon-removebg-preview.png"
 name = "Simon Sage"
 title = "Communications Coordinator"
 bio = "A seasoned communications professional with over a decade of experience in online publishing. As a journalist, he's been able to chew on important subjects like solar panels, batteries, electric vehicles, smart thermostats, energy infrastructure, home energy efficiency, and right to repair."
-
-[[extra.team]]
-photo_path = ""
-name = "Santonu Kashyap"
-title = "Carbon Markets"
-bio = ""
 +++
