@@ -20,25 +20,25 @@ about_header = "Who we are"
 
 [[extra.benefits]]
 title = "Improve crop performance"
-description = "A proven soil amendment shown to increase yields. "
+description = "Increase yields with a proven soil amendment."
 
 [[extra.benefits]]
 title = "Reduce irrigation needs"
-description = "Porous structure retains critical moisture."
+description = "Maximize water retention and keep soils hydrated."
 
 [[extra.benefits]]
 title = "Enhance soil structure"
-description = "Prevent erosion soil runoff with improved cohesion."
+description = "Prevent soil erosion and runoff with improved cohesion."
 
 [[extra.benefits]]
 title = "Boost nutrient availability"
 description = "House a healthy microbiome in depleted environments. "
 
 [[extra.benefits]]
-title = "Manage waste"
-description = "Turn excess biomass into value. "
+title = "Efficiently manage waste"
+description = "Convert excess biomass into high-value biochar."
 
 [[extra.benefits]]
 title = "Sequester carbon"
-description = "Stabilize biomass carbon through anaerobic pyrolysis. Earn credits to meet emissions goals."
+description = "Stabilize biomass carbon through pyrolysis and earn CDR credits."
 +++
