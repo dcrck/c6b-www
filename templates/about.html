@@ -17,6 +17,12 @@
     </defs>
     <rect width="100%" height="100%" fill="url(#hexagons)" />
   </svg>
+  <section id="vision" class="container">
+    <h1>{{section.extra.vision_header | safe}}</h1>
+    {% for text in section.extra.vision_paragraphs %}
+      <p>{{text | safe}}</p>
+    {% endfor %}
+  </section>
   <section id="story" class="container">
     <h1>{{section.extra.story_header | safe}}</h1>
     {% for text in section.extra.story_paragraphs %}
@@ -38,12 +44,6 @@
   <section id="problem" class="container">
     <h1>{{section.extra.problem_header | safe}}</h1>
     {% for text in section.extra.problem_paragraphs %}
-      <p>{{text | safe}}</p>
-    {% endfor %}
-  </section>
-  <section id="vision" class="container">
-    <h1>{{section.extra.vision_header | safe}}</h1>
-    {% for text in section.extra.vision_paragraphs %}
       <p>{{text | safe}}</p>
     {% endfor %}
   </section>
