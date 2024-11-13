@@ -842,6 +842,7 @@ img { border-radius: 0.125rem; }
   flex-direction: column;
   min-width: 0;
   flex-grow: 1;
+  color: var(--bg-color);
 }
 
 .contact-form > * + * {
