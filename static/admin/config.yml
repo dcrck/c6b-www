@@ -83,6 +83,10 @@ collections:
               - {label: "Form Title", name: "form_title", widget: string}
               - {label: "Form Description", name: "form_description", widget: string}
               - {label: "Form Email Input Label", name: "form_email_input_label", widget: string}
+              - {label: "Form Name Input Label", name: "form_name_input_label", widget: string}
+              - {label: "Form Position Input Label", name: "form_position_input_label", widget: string}
+              - {label: "Form Message Subject Input Label", name: "form_subject_input_label", widget: string}
+              - {label: "Form Message Content Input Label", name: "form_message_input_label", widget: string}
               - {label: "Form Submit Button Text", name: "form_submit_button_text", widget: string}
       - name: "about"
         label: "About Us Page"

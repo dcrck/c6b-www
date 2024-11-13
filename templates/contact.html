@@ -21,9 +21,27 @@
     <form name="contact" method="POST" class="contact-form" netlify>
       <h2>{{section.extra.form_title | safe}}</h2>
       <p>{{section.extra.form_description | safe}}</p>
-      <div>
-        <label for="email">{{section.extra.form_email_input_label}}</label>
-        <input type="email" id="email" name="email" />
+      <div class="fields">
+        <div class="field">
+          <label for="name">{{section.extra.form_name_input_label}}</label>
+          <input type="text" id="name" name="name" required/>
+        </div>
+        <div class="field">
+          <label for="email">{{section.extra.form_email_input_label}}</label>
+          <input type="email" id="email" name="email" required/>
+        </div>
+      </div>
+      <div class="field">
+        <label for="position">{{section.extra.form_position_input_label}}</label>
+        <input type="text" id="position" name="position" />
+      </div>
+      <div class="field">
+        <label for="subject">{{section.extra.form_subject_input_label}}</label>
+        <input type="text" id="subject" name="subject" required/>
+      </div>
+      <div class="field">
+        <label for="message">{{section.extra.form_message_input_label}}</label>
+        <textarea id="message" name="message" required></textarea>
       </div>
       <button type="submit">{{section.extra.form_submit_button_text}}</button>
     </form>

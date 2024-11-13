@@ -817,16 +817,47 @@ img { border-radius: 0.125rem; }
   font-size: 2em;
 }
 
-.contact-form > div * + * {
+.contact-form .fields {
+  display: flex;
+  color: var(--bg-color);
+  column-gap: 1em;
+}
+
+.contact-form .fields > * + * {
+  margin-top: 0;
+}
+
+@media (max-width: 500px) {
+  .contact-form .fields {
+    flex-direction: column;
+  }
+
+  .contact-form .fields > * + * {
+    margin-top: 1em;
+  }
+}
+
+.contact-form .field {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  flex-grow: 1;
+}
+
+.contact-form > * + * {
+  margin-top: 1em;
+}
+
+.contact-form .field * + * {
   margin-top: 0.5em;
 }
 
-.contact-form > div {
-  display: flex;
-  flex-direction: column;
+.contact-form textarea {
+  height: 250px;
 }
 
 .contact-form label {
+  color: var(--text-color);
   font-size: 0.7em;
   font-family: var(--mono);
   opacity: 0.75;
