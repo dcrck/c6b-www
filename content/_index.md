@@ -4,7 +4,7 @@ title = "C6B"
 [extra]
 intro_header = "What is biochar?"
 hero_cta_button_text = "Get in Touch"
-about_description = "C6B turns waste into value for the agriculture sector. We apply the latest technologies to create reliable, carbon-negative biochar at scale. Learn more about how we work and where we come from."
+about_description = "C6B turns waste into value for the agriculture sector. We apply the latest technologies to create reliable, carbon-negative biochar at scale. Learn more about how we work and where we come from.\n\nWe're a team passionate about leaving a legacy of sustainability and supporting the community of southern California. "
 contact_cta_button_text = "Contact us"
 contact_header = "Want to connect with C6B?"
 benefits_header = "Benefits of Biochar"
