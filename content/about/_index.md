@@ -1,5 +1,5 @@
 +++
-title = "About Us ⬡ C6B"
+title = "About Us"
 template = "about.html"
 
 [extra]
