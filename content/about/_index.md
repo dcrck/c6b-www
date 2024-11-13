@@ -4,7 +4,7 @@ template = "about.html"
 
 [extra]
 vision_header = "Our Vision"
-problem_paragraphs = ["Climate change threatens food security and the livelihood of farmers around the globe. Now is the time to rally around solutions that secure reliable crop yields in the face of unpredictable rainfall and extreme weather events.", "Regenerative farming techniques can support resilience in the face of these challenges. Farmers and consumers alike benefit from solutions like biochar that can improve soil health, recycle \"waste\" material, and sequester carbon.", "Better still, this solution can increase yields to meet ever-increasing demand when traditional crop treatments are eroding long-term growing conditions. This further reduces the need for clearing ecologically valuable land for agricultural use.", "C6B also provides agricultural producers and suppliers with high-quality carbon removal credits that support net-zero goals."]
+problem_paragraphs = ["Climate change threatens food security and the livelihood of farmers around the globe. Now is the time to rally around solutions that secure reliable crop yields in the face of unpredictable rainfall and extreme weather events.", "Regenerative farming techniques can support resilience in the face of these challenges. Farmers and consumers alike benefit from solutions like biochar that can improve soil health, recycle waste material, and sequester carbon.", "Better still, this solution can increase yields to meet ever-increasing demand when traditional crop treatments are eroding long-term growing conditions. This further reduces the need for clearing ecologically valuable land for agricultural use.", "In addition to generating world-class biochar for the southern California region, C6B also provides agricultural producers and suppliers with high-quality carbon removal credits that support net-zero goals."]
 values_header = "Our Values"
 problem_header = "The Problem and Our Solution"
 story_paragraphs = ["After spending years in the coal industry, I realized that I needed to do more to leave a healthy planet for my kids. ", "I was so lucky to meet Robert four years ago. He was on the way to retirement and was also thinking about legacy. Together, we found an opportunity in biochar. Not only could we help local farmers improve their soil quality and improve their yields, but we could sequester carbon at the same time. ", "\nWe're so excited about launching our pilot project soon. We think you'll love what you see. "]
@@ -39,44 +39,38 @@ name = "Derek Zahler"
 caption = "Founder"
 
 [[extra.team]]
-photo_path = "/images/uploads/derek-z.png"
+photo_path = "/images/uploads/derek-removebg-preview.png"
 name = "Derek Zahler"
 title = "Founder"
 bio = "Derek Zahler is a project development professional. From running missions as a Special Forces soldier to managing new ventures and special projects for a large mining company, he has appreciated the quality of teams in the sincerest sense. His interest in climate is foundational."
 
 [[extra.team]]
-photo_path = "/images/uploads/tyler-headshot.png"
+photo_path = "/images/uploads/tyler-removebg-preview.png"
 name = "Tyler Strafford"
 title = "Chief of Staff"
 bio = "A strategic problem-solver with a management consultant background, Tyler enjoys creating custom solutions for thorny issues - especially when he needs to learn something new to do so.  He is passionate about the circular economy and discovering new ways to use so-called “waste” products, especially when transforming practices to reduce their environmental impacts."
 
 [[extra.team]]
-photo_path = ""
+photo_path = "/images/uploads/rob-removebg-preview.png"
 name = "Roberts Klavins"
 title = "Partnerships"
 bio = "An experienced sales professional with a strong background in Asia Pacific financial markets. With leadership roles at JP Morgan and Bank of America Merrill Lynch, he has driven revenue growth while navigating complex regulatory environments. Passionate about climate solutions, he is leveraging his financial markets expertise to contribute to decarbonization efforts and deliver transparent, credible strategies."
 
 [[extra.team]]
-photo_path = ""
+photo_path = "/images/uploads/greg-removebg-preview.png"
 name = "Gregory Billington"
 title = "Finance &amp; Planning"
 bio = ""
 
 [[extra.team]]
-photo_path = "/images/uploads/fuming-headshot.png"
+photo_path = "/images/uploads/fuming-removebg-preview.png"
 name = "Fuming Yang"
 title = "Science &amp; Engineering"
 bio = "Fuming holds a PhD in advanced material mechanics with over eight years of research experience, combined with hands-on expertise in deep/climate tech VC and early-stage startups. Her background spans technical innovation and strategic business growth, with a focus on business development, due diligence, and impactful strategy. She is deeply passionate about advancing sustainable innovations and driving meaningful change in climate tech."
 
 [[extra.team]]
-photo_path = "/images/uploads/profile-pic.png"
+photo_path = "/images/uploads/simon-removebg-preview.png"
 name = "Simon Sage"
 title = "Communications Coordinator"
 bio = "A seasoned communications professional with over a decade of experience in online publishing. As a journalist, he's been able to chew on important subjects like solar panels, batteries, electric vehicles, smart thermostats, energy infrastructure, home energy efficiency, and right to repair."
-
-[[extra.team]]
-photo_path = ""
-name = "Santonu Kashyap"
-title = "Carbon Markets"
-bio = ""
 +++
