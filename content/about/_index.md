@@ -60,7 +60,7 @@ bio = "An experienced sales professional with a strong background in Asia Pacifi
 photo_path = "/images/uploads/greg-removebg-preview.png"
 name = "Gregory Billington"
 title = "Finance &amp; Planning"
-bio = ""
+bio = "Experienced financial product manager, taking global products from 0-1 at Visa. Having represented the US as a 2016 Olympian in triathlon and won gold as a Paralympic Triathlon Guide in 2020, Greg brings a global perspective to climate tech solutions. He is currently finishing an MBA at Wharton, helping bring the latest operational and financial tools to C6B. "
 
 [[extra.team]]
 photo_path = "/images/uploads/fuming-removebg-preview.png"
