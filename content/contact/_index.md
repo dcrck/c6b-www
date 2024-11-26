@@ -12,5 +12,6 @@ form_position_input_label = "Position (optional)"
 form_subject_input_label = "Subject"
 form_message_input_label = "Message"
 form_submit_button_text = "Submit"
+form_pitch_checkbox_label = "Download our pitch deck"
 +++
 
