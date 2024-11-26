@@ -17,6 +17,8 @@ about_cta_button_text = "About Us"
 intro_image_path = "/biochar-about.jpg"
 news_cta_button_text = "All Company News"
 about_header = "Who we are"
+flowchart_image_path = "/images/uploads/biochar-flowchart-final.svg"
+flowchart_alt_text = "Flowchart showing how biochar is created and processed: Local Waste Feedstock is pelletized via drying and grinding, then put into an electric pyrolysis kiln, which uses high temperatures to turn the material into biochar. This biochar is used primarily as a soil supplement for local agriculture. The kiln also produces waste heat and syngas, which is used to dry the next round of feedstock and converted into electricity to help power the kiln, respectively."
 
 [[extra.benefits]]
 title = "Improve crop performance"
