@@ -68,7 +68,13 @@
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(data).toString()
     })
-      .then(() => console.log("Thank you for submitting our contact form!"))
+      .then(() => {
+        form.reset();
+        const toast = document.createElement("p");
+        toast.classList.add("toast", "success");
+        toast.innerHTML = "Thank you for submitting our contact form!";
+        form.parentElement.prepend(toast);
+      })
       .catch(error => alert(error));
   }
 

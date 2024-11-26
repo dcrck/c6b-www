@@ -884,6 +884,15 @@ img { border-radius: 0.125rem; }
   width: 100%;
 }
 
+.toast {
+  width: 100%;
+  text-align: center;
+  background: var(--text-color);
+  color: var(--bg-color);
+  padding: 1em;
+  border-radius: 0.125em;
+}
+
 @media (max-width: 886px) {
   .side-by-side, #intro {
     flex-direction: column;
