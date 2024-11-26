@@ -64,7 +64,7 @@
       window.open("C6B Pitch Deck.pdf");
     }
     fetch("/", {
-      method: "",
+      method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(data).toString()
     })
