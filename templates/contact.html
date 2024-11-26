@@ -74,6 +74,7 @@
         toast.classList.add("toast", "success");
         toast.innerHTML = "Thank you for submitting our contact form!";
         form.parentElement.prepend(toast);
+        window.scroll(0, 0);
       })
       .catch(error => alert(error));
   }
