@@ -109,6 +109,7 @@ collections:
               - {label: "Form Message Content Input Label", name: "form_message_input_label", widget: string}
               - {label: "Form Pitch Download Checkbox Label", name: "form_pitch_checkbox_label", widget: string}
               - {label: "Form Submit Button Text", name: "form_submit_button_text", widget: string}
+              - {label: "Form Pitch PDF Download URL", name: "form_pitch_pdf_url", widget: string}
       - name: "about"
         label: "About Us Page"
         file: "content/about/_index.md"

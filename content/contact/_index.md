@@ -13,5 +13,6 @@ form_subject_input_label = "Subject"
 form_message_input_label = "Message"
 form_submit_button_text = "Submit"
 form_pitch_checkbox_label = "Download our pitch deck"
+form_pitch_pdf_url = "https://drive.google.com/file/d/1OD8GHtP0zHVRJ867GxCH29sN9EozDtcP/view?usp=sharing"
 +++
 

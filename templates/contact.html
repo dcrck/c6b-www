@@ -61,7 +61,7 @@
     const form = event.target;
     const data = new FormData(form);
     if (data.has("pitch")) {
-      window.open("/C6B Pitch Deck.pdf");
+      window.open("{{section.extra.form_pitch_pdf_url | safe}}");
     }
     fetch("/contact", {
       method: "POST",
