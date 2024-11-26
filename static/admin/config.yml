@@ -107,6 +107,7 @@ collections:
               - {label: "Form Position Input Label", name: "form_position_input_label", widget: string}
               - {label: "Form Message Subject Input Label", name: "form_subject_input_label", widget: string}
               - {label: "Form Message Content Input Label", name: "form_message_input_label", widget: string}
+              - {label: "Form Pitch Download Checkbox Label", name: "form_pitch_checkbox_label", widget: string}
               - {label: "Form Submit Button Text", name: "form_submit_button_text", widget: string}
       - name: "about"
         label: "About Us Page"
