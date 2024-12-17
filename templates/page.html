@@ -15,7 +15,7 @@
     {% endif %}
   </section>
   <section class="container">
-    {{page.content}}
+    {{page.content | safe}}
   </section>
   <section id="contact-us" class="container">
     <h1 class="title">{{page.extra.contact_header | safe}}</h1>

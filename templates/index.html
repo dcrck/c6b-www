@@ -68,11 +68,15 @@
     <ul>
       {% for news_item in subsection.pages | slice(end=3) %}
       <li>
-        <div>
-          <div></div>
+        <a href="{{ news_item.permalink }}">
+          {% if news_item.extra.thumbnail != "" %}
+            <img src="{{news_item.extra.thumbnail}}" alt="{{news_item.description | safe}}" />
+          {% else %}
+            <div class="placeholder"></div>
+          {% endif %}
           <h3>{{news_item.title}}</h3>
           <p>{{news_item.description}}</p>
-        </div>
+        </a>
       </li>
       {% endfor %}
     </ul>
