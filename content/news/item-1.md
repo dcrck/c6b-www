@@ -8,14 +8,11 @@ thumbnail = "/images/uploads/biochar.jpg"
 contact_header = "Want to Connect with C6B?"
 contact_cta_button_text = "Contact Us"
 +++
-
-
-
 Biochar is carbon made of organic matter that's been heated at a very high temperature. It's not the same as charcoal you might find in your fireplace, though. The key difference is how heat is applied. Burning material requires oxygen to feed a fire. Biochar, however, is heated in an oxygen-free environment.  
 
 ## How is biochar made? 
 
-Biochar is made in a kiln, which is a kind of insulated furnace. Biomass like waste wood is dried and compressed into pellets before being put into the kiln for heating. This heating process, called pyrolysis, reaches upwards of 600℃. Since there's no oxygen, CO2 can't be produced, resulting in much fewer emissions.    
+Biochar is made in a kiln, which is a kind of insulated furnace. Biomass like waste wood or animal waste is dried and compressed into pellets before being put into the kiln for heating. This heating process is called pyrolysis. Since there's no oxygen, CO2 can't be produced, resulting in much fewer emissions.    
 
 The process also creates syngas, which is mostly methane. Syngas is routinely recycled in the process in order to heat the kiln and dry the next batch of biomass. This feedback of electrical and thermal generation can produce the majority of the energy needed to keep the kiln running.
 
