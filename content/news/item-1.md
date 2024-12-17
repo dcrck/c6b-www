@@ -8,7 +8,7 @@ thumbnail = "/images/uploads/biochar.jpg"
 contact_header = "Want to Connect with C6B?"
 contact_cta_button_text = "Contact Us"
 +++
-Biochar is carbon made of organic matter that's been heated at a very high temperature. It's not the same as charcoal you might find in your fireplace, though. The key difference is how heat is applied. Burning material requires oxygen to feed a fire. Biochar, however, is heated in an oxygen-free environment.  
+Biochar is carbon made of organic matter that's been heated at a very high temperature. It's not the same as charcoal you might find in your fireplace, though. The key difference is how heat is applied. Burning material requires oxygen to feed a fire. Biochar, however, is heated in an oxygen-free environment.  .
 
 ## How is biochar made? 
 
