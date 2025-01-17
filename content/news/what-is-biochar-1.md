@@ -1,6 +1,6 @@
 +++
 layout = "page"
-title = "What is Biochar?"
+title = "What is biochar?"
 description = "Learn the ins and outs of biochar with this straightforward explainer. How is it made, and what is it used for?"
 
 [extra]
