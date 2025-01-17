@@ -4,7 +4,7 @@ description = "The value behind biochar goes deeper than agriculture. Learn abou
 date = 2024-11-05
 
 [extra]
-thumbnail = "/images/uploads/bhautik-andhariya-go5cpnl8ls8-unsplash.jpg"
+thumbnail = "/images/uploads/rock.jpg"
 contact_header = "Want to Connect with C6B?"
 contact_cta_button_text = "Contact Us"
 +++
