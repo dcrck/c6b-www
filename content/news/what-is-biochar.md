@@ -4,7 +4,7 @@ description = "Learn the ins and outs of biochar with this straightforward expla
 date = 2024-11-06
 
 [extra]
-thumbnail = "/images/uploads/biochar.jpg"
+thumbnail = "/images/uploads/leaf.jpg"
 contact_header = "Want to Connect with C6B?"
 contact_cta_button_text = "Contact Us"
 +++
