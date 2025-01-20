@@ -2,7 +2,7 @@
 layout = "page"
 title = "Biochar is the new black gold"
 description = "The value behind biochar goes deeper than agriculture. Learn about its hidden benefits and the mad dash to make the most of them.\n\n"
-date = "January 17, 2025"
+date = "2025-01-17"
 
 [extra]
 thumbnail = "/images/uploads/rock.jpg"
