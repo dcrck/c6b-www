@@ -961,8 +961,12 @@ section > h1.title {
   margin-top: 0;
 }
 
+.article-list a.image-link {
+  max-width: 300px;
+}
+
 .article-list > li img, .article-list > li .placeholder {
-  width: 300px;
+  width: 100%;
 }
 
 .article-list > li .placeholder {
@@ -993,8 +997,8 @@ section > h1.title {
   .article-list > li {
     flex-direction: column;
   }
-  .article-list > li img, .article-list > li .placeholder {
-    width: 100%;
+  .article-list a.image-link {
+    max-width: 100%;
   }
   .article-list > li .placeholder {
     aspect-ratio: 3 / 2;
