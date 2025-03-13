@@ -11,6 +11,12 @@ status = 200
 force = false
 
 [[redirects]]
+from = "/FontAwesome/*"
+to = "https://c6b-docs.netlify.app/FontAwesome/:splat"
+status = 200
+force = false
+
+[[redirects]]
 from = "/highlight.css"
 to = "https://c6b-docs.netlify.app/highlight.css"
 status = 200
@@ -61,6 +67,18 @@ force = false
 [[redirects]]
 from = "/elasticlunr.min.js"
 to = "https://c6b-docs.netlify.app/elasticlunr.min.js"
+status = 200
+force = false
+
+[[redirects]]
+from = "/searchindex.js"
+to = "https://c6b-docs.netlify.app/searchindex.js"
+status = 200
+force = false
+
+[[redirects]]
+from = "/searchindex.json"
+to = "https://c6b-docs.netlify.app/searchindex.json"
 status = 200
 force = false
 
