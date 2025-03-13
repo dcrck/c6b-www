@@ -1,4 +1,70 @@
 [[redirects]]
+from = "/css/*"
+to = "https://c6b-docs.netlify.app/css/:splat"
+status = 200
+force = false
+
+[[redirects]]
+from = "/fonts/*"
+to = "https://c6b-docs.netlify.app/fonts/:splat"
+status = 200
+force = false
+
+[[redirects]]
+from = "/highlight.css"
+to = "https://c6b-docs.netlify.app/highlight.css"
+status = 200
+force = false
+
+[[redirects]]
+from = "/ayu-highlight.css"
+to = "https://c6b-docs.netlify.app/ayu-highlight.css"
+status = 200
+force = false
+
+[[redirects]]
+from = "/tomorrow-night.css"
+to = "https://c6b-docs.netlify.app/tomorrow-night.css"
+status = 200
+force = false
+
+[[redirects]]
+from = "/searcher.js"
+to = "https://c6b-docs.netlify.app/searcher.js"
+status = 200
+force = false
+
+[[redirects]]
+from = "/mark.min.js"
+to = "https://c6b-docs.netlify.app/mark.min.js"
+status = 200
+force = false
+
+[[redirects]]
+from = "/clipboard.min.js"
+to = "https://c6b-docs.netlify.app/clipboard.min.js"
+status = 200
+force = false
+
+[[redirects]]
+from = "/highlight.js"
+to = "https://c6b-docs.netlify.app/highlight.js"
+status = 200
+force = false
+
+[[redirects]]
+from = "/book.js"
+to = "https://c6b-docs.netlify.app/book.js"
+status = 200
+force = false
+
+[[redirects]]
+from = "/elasticlunr.min.js"
+to = "https://c6b-docs.netlify.app/elasticlunr.min.js"
+status = 200
+force = false
+
+[[redirects]]
 from = "/docs/*"
 to = "https://c6b-docs.netlify.app/:splat"
 status = 200
