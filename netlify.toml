@@ -1,0 +1,6 @@
+[[redirects]]
+from = "/docs/*"
+to = "https://c6b-docs.netlify.app/:splat"
+status = 200
+force = false
+
