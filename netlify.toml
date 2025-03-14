@@ -84,6 +84,6 @@ force = false
 
 [[redirects]]
 from = "/docs/*"
-to = "https://c6b-docs.netlify.app/:splat"
+to = "https://c6b-docs.netlify.app/docs/:splat"
 status = 200
 force = false
