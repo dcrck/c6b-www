@@ -83,25 +83,7 @@ status = 200
 force = false
 
 [[redirects]]
-from = "/docs"
-to = "https://c6b-docs.netlify.app/"
-status = 200
-force = false
-
-[[redirects]]
-from = "/intro/*"
-to = "https://c6b-docs.netlify.app/intro/:splat"
-status = 200
-force = false
-
-[[redirects]]
-from = "/applications/*"
-to = "https://c6b-docs.netlify.app/applications/:splat"
-status = 200
-force = false
-
-[[redirects]]
-from = "/carbon-capture/*"
-to = "https://c6b-docs.netlify.app/carbon-capture/:splat"
+from = "/docs/*"
+to = "https://c6b-docs.netlify.app/:splat"
 status = 200
 force = false
