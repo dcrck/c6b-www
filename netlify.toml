@@ -90,7 +90,7 @@ force = false
 
 [[redirects]]
 from = "/docs/"
-to = "https://c6b-docs.netlify.app/docs"
+to = "https://c6b-docs.netlify.app/docs/index.html"
 status = 200
 force = true
 
