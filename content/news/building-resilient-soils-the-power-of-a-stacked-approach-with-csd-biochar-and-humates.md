@@ -6,8 +6,8 @@ date = "2025-04-09"
 
 [extra]
 thumbnail = "/images/uploads/biochar-stacking-blog-post-graphic.png"
-contact_cta_button_text = "Build Your Stack "
-contact_header = "Learn More"
+contact_cta_button_text = "Get in contact with us "
+contact_header = "Get in contact with us"
 +++
 
 
