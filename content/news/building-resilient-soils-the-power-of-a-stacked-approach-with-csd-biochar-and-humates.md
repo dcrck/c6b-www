@@ -5,7 +5,7 @@ description = "A systems-level solution for restoring soil health and supporting
 date = "2025-04-15"
 
 [extra]
-thumbnail = "/images/uploads/biochar-stacking-blog-post-graphic.png"
+thumbnail = "/images/uploads/pexels-optical-chemist-340351297-31314849.jpg"
 contact_cta_button_text = "Get in contact with us "
 contact_header = "Get in contact with us"
 +++
