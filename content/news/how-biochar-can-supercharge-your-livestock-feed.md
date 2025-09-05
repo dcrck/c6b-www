@@ -1,7 +1,7 @@
 +++
 layout = "page"
 title = "How Biochar Can Supercharge Your Livestock Feed"
-description = "Biochar is loads of potential benefits for livestock, including health, and emissions. "
+description = "Biochar has loads of potential benefits for livestock, including health, and emissions. "
 date = "2025-03-26"
 
 [extra]
